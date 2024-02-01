@@ -7,6 +7,6 @@ import (
 
 func main() {
 	fmt.Println("Hello, Go")
-	fmt.Println(20 + 20)
-	fmt.Println(20 + 40)
+	fmt.Println(0x14 + 0b0010100)
+	fmt.Println(0o24 + 40)
 }
