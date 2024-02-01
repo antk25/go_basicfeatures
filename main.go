@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
+	//"math/rand"
 )
 
 func main() {
-	fmt.Println("Value:", rand.Int())
+	fmt.Println("Hello, Go")
+	fmt.Println(20 + 20)
+	fmt.Println(20 + 40)
 }
