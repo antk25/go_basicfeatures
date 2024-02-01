@@ -1,12 +1,9 @@
 package main
 
-import (
-	"fmt"
-	//"math/rand"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("Hello, Go")
-	fmt.Println(0x14 + 0b0010100)
-	fmt.Println(0o24 + 40)
+	const price float32 = 200.00
+	const tax float32 = 34.00
+	fmt.Println(price + tax)
 }
